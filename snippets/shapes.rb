@@ -1,12 +1,17 @@
+# frozen_string_literal: true
+
+# Rectangle class
 class Rectangle
   attr_reader :number_of_sides, :length, :width
 
   def initialize(length, width)
     @number_of_sides = 4
-    @length, @width = length, width
+    @length = length
+    @width = width
   end
 end
 
+# Square class
 class Square < Rectangle
   def initialize(side)
     super
@@ -16,12 +21,12 @@ class Square < Rectangle
 end
 
 # Suppose we just want a four-sided object. Any will do.
-def is_four_sided?(obj)
+def four_sided?(obj)
   obj.number_of_sides == 4
 end
 
-is_four_sided?(Rectangle.new(2,3))
-is_four_sided?(Square.new(5))
+four_sided?(Rectangle.new(2, 3))
+four_sided?(Square.new(5))
 
 # Does this code adhere to LSP when the client wants a four-sided object?
 # What if the client wants a four-sided object with equal sides?
