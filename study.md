@@ -92,35 +92,9 @@ specific. This is similar to the mantra we've repeated in the past about
 relationships between different concepts: "all squares are rectangles but not
 all rectangles are squares".
 
-```ruby
-class Rectangle
-  attr_reader :number_of_sides, :length, :width
+<!-- start code block file="snippets/shapes.rb" -->
 
-  def initialize(length, width)
-    @number_of_sides = 4
-    @length, @width = length, width
-  end
-end
-
-class Square < Rectangle
-  def initialize(side)
-    super
-    @length = side
-    @width = side
-  end
-end
-
-# Suppose we just want a four-sided object. Any will do.
-def is_four_sided?(obj)
-  obj.number_of_sides == 4
-end
-
-is_four_sided?(Rectangle.new(2,3))
-is_four_sided?(Square.new(5))
-
-# Does this code adhere to LSP when the client wants a four-sided object?
-# What if the client wants a four-sided object with equal sides?
-```
+<!-- end code block -->
 
 OCP can be thought of as the primary goal of good design. OCP says that "objects
 should be open to extension, but closed to modification". If our objects conform
