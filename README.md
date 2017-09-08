@@ -9,9 +9,9 @@ to changing requirements, and makes it less expensive to change.
 
 ## Prerequisites
 
--   [Ruby Object Model](https://github.com/ga-wdi-boston/ruby-object-model)
--   [Ruby Object](https://github.com/ga-wdi-boston/ruby-object)
--   [Ruby Object Practice](https://github.com/ga-wdi-boston/ruby-objects-practice)
+-   [Ruby Object Model](https://git.generalassemb.ly/ga-wdi-boston/ruby-object-model)
+-   [Ruby Object](https://git.generalassemb.ly/ga-wdi-boston/ruby-object)
+-   [Ruby Object Practice](https://git.generalassemb.ly/ga-wdi-boston/ruby-objects-practice)
 
 ## Objectives
 
@@ -29,10 +29,10 @@ By the end of this, developers should be able to:
 1.  Follow the directions given in [`study.md`](study.md).
 1.  When finished, push to your fork and submit a pull request.
 
-You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
+You may wish to refer to [FAQs](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/)
 related to [forking,
-cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone), and [pull
-requests](https://github.com/ga-wdi-boston/meta/wiki/PullRequest).
+cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone), and [pull
+requests](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/PullRequest).
 
 ## [License](LICENSE)
 
