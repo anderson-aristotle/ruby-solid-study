@@ -31,10 +31,10 @@ confidence.
 
 Some characteristics of poorly defined systems:
 
-> -   Rigid (difficult to change)
-> -   Fragile (tendency to break when changed)
-> -   Immobile (limited reuse of components)
-> -   Viscous (easier to do it "wrong" than "right")
+> - Rigid (difficult to change)
+> - Fragile (tendency to break when changed)
+> - Immobile (limited reuse of components)
+> - Viscous (easier to do it "wrong" than "right")
 >
 > – Adapted from ["Design Principles and Design Patterns" by Robert C.
 > Martin](http://mil-oss.org/resources/objectmentor_design-principles-and-design-patterns.pdf)
@@ -49,10 +49,10 @@ recognize bad patterns in the code we write by "code smells". So, design
 principles provide us a framework for structuring our work. The cycle for
 improving our code will look like this:
 
-1.  Identify an issue with your code, usually by the presence of a code smell.
-1.  Extract methods and classes to better define responsibilities.
-1.  Inject our new code into our old code so behavior doesn't change.
-1.  Repeat as necessary.
+1. Identify an issue with your code, usually by the presence of a code smell.
+1. Extract methods and classes to better define responsibilities.
+1. Inject our new code into our old code so behavior doesn't change.
+1. Repeat as necessary.
 
 This is inherently an iterative process. This process is made easier by the
 presence of automated tests, but at the very least we should manually exercise
@@ -63,11 +63,11 @@ the part of our codebase that is changing to ensure our system still works.
 [SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) is an
 acronym that stands for:
 
--   [Single Responsibility Principle (SRP)](http://en.wikipedia.org/wiki/Single_responsibility_principle)
--   [Open/Closed Principle (OCP)](http://en.wikipedia.org/wiki/Open/closed_principle)
--   [Liskov Substitution Principle (LSP)](http://en.wikipedia.org/wiki/Liskov_substitution_principle)
--   [Interface Segregation Principle (ISP)](http://en.wikipedia.org/wiki/Interface_segregation_principle)
--   [Dependency Inversion Principle (DIP)](http://en.wikipedia.org/wiki/Dependency_inversion_principle)
+* [Single Responsibility Principle (SRP)](http://en.wikipedia.org/wiki/Single_responsibility_principle)
+* [Open/Closed Principle (OCP)](http://en.wikipedia.org/wiki/Open/closed_principle)
+* [Liskov Substitution Principle (LSP)](http://en.wikipedia.org/wiki/Liskov_substitution_principle)
+* [Interface Segregation Principle (ISP)](http://en.wikipedia.org/wiki/Interface_segregation_principle)
+* [Dependency Inversion Principle (DIP)](http://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
 These principles are presented and defined separately, but in practice they work
 together. For example, we might initially extract a class to improve adherence
@@ -93,6 +93,7 @@ relationships between different concepts: "all squares are rectangles but not
 all rectangles are squares".
 
 <!-- start code block file="snippets/shapes.rb" -->
+
 ```rb
 # frozen_string_literal: true
 
@@ -127,6 +128,7 @@ four_sided?(Square.new(5))
 # Does this code adhere to LSP when the client wants a four-sided object?
 # What if the client wants a four-sided object with equal sides?
 ```
+
 <!-- end code block -->
 
 OCP can be thought of as the primary goal of good design. OCP says that "objects
@@ -165,13 +167,13 @@ rules.
 
 ### [Sandi Metz' Rules](https://robots.thoughtbot.com/sandi-metz-rules-for-developers)
 
-> 1.  Your class can be no longer than 100 lines of code.
-> 1.  Your methods can be no longer than five lines of code.
-> 1.  You can pass no more than four parameters and you can’t just make it one
->     big hash.
-> 1.  When a call comes into your Rails controller, you can only instantiate one
->     object to do whatever it is that needs to be done. And your view can only
->     know about one instance variable.
+> 1. Your class can be no longer than 100 lines of code.
+> 1. Your methods can be no longer than five lines of code.
+> 1. You can pass no more than four parameters and you can’t just make it one
+> big hash.
+> 1. When a call comes into your Rails controller, you can only instantiate one
+> object to do whatever it is that needs to be done. And your view can only
+> know about one instance variable.
 >
 > You can break these rules if you can talk your pair into agreeing with you.
 
@@ -184,10 +186,10 @@ Ask yourself the following questions when you get ready to refactor your code.
 If the answer is "no" to any of these questions, start by addressing that issue
 and see where your refactorings lead you.
 
--   Is it DRY?
--   Does it have one responsibility?
--   Does everything change at the same rate?
--   Does it depend on things that change less often than it does?
+* Is it DRY?
+* Does it have one responsibility?
+* Does everything change at the same rate?
+* Does it depend on things that change less often than it does?
 
 ## Going Slow to Go Fast
 
@@ -205,11 +207,11 @@ about design if you expect your project to fail, but:
 
 ## Additional Resources
 
--   [Practical Object-Oriented Design in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C/)
--   [SOLID Design Principles - Practicing Ruby, Issue 1.23](https://practicingruby.com/articles/solid-design-principles)
--   [Confreaks TV | SOLID Object-Oriented Design - GORUCO 2009](http://confreaks.tv/videos/goruco2009-solid-object-oriented-design)
--   [Confreaks TV | SOLID Ruby - Ruby Conference 2009](http://confreaks.tv/videos/rubyconf2009-solid-ruby)
--   [The SOLID Principles - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-solid-principles--cms-634)
+* [Practical Object-Oriented Design in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C/)
+* [SOLID Design Principles - Practicing Ruby, Issue 1.23](https://practicingruby.com/articles/solid-design-principles)
+* [Confreaks TV | SOLID Object-Oriented Design - GORUCO 2009](http://confreaks.tv/videos/goruco2009-solid-object-oriented-design)
+* [Confreaks TV | SOLID Ruby - Ruby Conference 2009](http://confreaks.tv/videos/rubyconf2009-solid-ruby)
+* [The SOLID Principles - Tuts+ Code Tutorials](http://code.tutsplus.com/series/the-solid-principles--cms-634)
 
 ## Response
 
