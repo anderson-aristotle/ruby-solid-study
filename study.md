@@ -1,7 +1,9 @@
 # SOLID Principles of Object-Oriented Design
 
-Read this study and answer the questions at the end. The "Additional Resources"
-are optional, but highly recommended.
+Read this study and answer the questions at the end. The links in this study are
+to be used as reference material and don't need to be read in their entirety.
+Also, the `Additional Resources` section is optional reading, but highly
+recommended.
 
 ## Design Principles
 
@@ -59,6 +61,8 @@ presence of automated tests, but at the very least we should manually exercise
 the part of our codebase that is changing to ensure our system still works.
 
 ## SOLID
+
+_Only read the 1st paragraph for the following links._
 
 [SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) is an
 acronym that stands for:
