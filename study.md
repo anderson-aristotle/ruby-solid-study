@@ -184,7 +184,7 @@ rules.
 The Bike Shed podcast has a great [episode](http://bikeshed.fm/1) detailing the
 experience of applying these rules on a real project.
 
-### Questions
+### What Would Sandi Do
 
 Ask yourself the following questions when you get ready to refactor your code.
 If the answer is "no" to any of these questions, start by addressing that issue
@@ -209,7 +209,7 @@ about design if you expect your project to fail, but:
 > that people want and you don't design, you can guarantee you will fail later
 > when people ask you change it. – Sandi Metz
 
-## Response
+## Questions
 
 Use your favorite search engine and the provided readings to research and answer
 the following questions.
@@ -219,7 +219,7 @@ search. We ask you to write answers in your own words in order to see how you
 process what you've read. Please do not answer with direct quotes from source
 material. Instead, digest what you've read and repeat it in your own voice.
 
-## Explain Why Good Software Design is Important
+### Explain Why Good Software Design is Important
 
 In your own words, explain why good design is important.
 
@@ -227,7 +227,7 @@ In your own words, explain why good design is important.
 <!-- your answer here -->
 ```
 
-## Identify Good Design
+### Identify Good Design
 
 List some criteria for well-designed code. Contrast this list with indicators
 of poor design.
@@ -236,7 +236,7 @@ of poor design.
 <!-- your answer here -->
 ```
 
-## Design Heuristics
+### Design Heuristics
 
 Are heuristics the same thing as rules? What are some design heuristics you can
 use to improve the design of your code?
@@ -245,7 +245,7 @@ use to improve the design of your code?
 <!-- your answer here -->
 ```
 
-## Refactorings
+### Refactorings
 
 Describe some common, named refactorings you can use to approach a good design.
 
