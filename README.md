@@ -9,9 +9,7 @@ to changing requirements, and makes it less expensive to change.
 
 ## Prerequisites
 
-- [Ruby Object Model](https://git.generalassemb.ly/ga-wdi-boston/ruby-object-model)
 - [Ruby Object](https://git.generalassemb.ly/ga-wdi-boston/ruby-object)
-- [Ruby Object Practice](https://git.generalassemb.ly/ga-wdi-boston/ruby-objects-practice)
 
 ## Objectives
 

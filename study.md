@@ -62,7 +62,7 @@ the part of our codebase that is changing to ensure our system still works.
 
 ## SOLID
 
-_Only read the 1st paragraph for the following links._
+_Only read the overview for the following wikipedia links._
 
 [SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) is an
 acronym that stands for:
