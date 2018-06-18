@@ -38,8 +38,7 @@ Some characteristics of poorly defined systems:
 > - Immobile (limited reuse of components)
 > - Viscous (easier to do it "wrong" than "right")
 >
-> – Adapted from ["Design Principles and Design Patterns" by Robert C.
-> Martin](http://mil-oss.org/resources/objectmentor_design-principles-and-design-patterns.pdf)
+> – Adapted from "Design Principles and Design Patterns" by Robert C. Martin.
 
 Bob Martin is much smarter than me: he has identified patterns in poorly-defined
 software **and** recommended some principles that can guide us on our way to
@@ -182,7 +181,7 @@ rules.
 > You can break these rules if you can talk your pair into agreeing with you.
 
 The Bike Shed podcast has a great [episode](http://bikeshed.fm/1) detailing the
-experience of applying these rules on a real project.
+experience of applying these rules on a real project. Listening to this is optional.
 
 ### What Would Sandi Do
 
@@ -255,7 +254,6 @@ Describe some common, named refactorings you can use to approach a good design.
 
 ## Additional Resources
 
-* [Practical Object-Oriented Design in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C/)
 * [SOLID Design Principles - Practicing Ruby, Issue 1.23](https://practicingruby.com/articles/solid-design-principles)
 * [Confreaks TV | SOLID Object-Oriented Design - GORUCO 2009](http://confreaks.tv/videos/goruco2009-solid-object-oriented-design)
 * [Confreaks TV | SOLID Ruby - Ruby Conference 2009](http://confreaks.tv/videos/rubyconf2009-solid-ruby)
